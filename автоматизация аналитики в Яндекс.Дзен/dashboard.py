@@ -8,8 +8,8 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # подключениe к базе данных для Postresql
-db_config = {'user': 'my_user',
-             'pwd': 'my_user_password',
+db_config = {'user': '',
+             'pwd': '', # логин и пароль убраны 
              'host': 'localhost',
              'port': 5432,
              'db': 'zen'}
